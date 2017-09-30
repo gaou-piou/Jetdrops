@@ -1,5 +1,5 @@
 backend:
-	name: github
+	name: Jetdrops
 	repo: gaou-piou/Jetdrops # Path to your Github repository
 	branch: master # Branch to update (master by default)P
 
