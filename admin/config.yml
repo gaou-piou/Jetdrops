@@ -1,6 +1,5 @@
 backend:
 	name: github
-	repo: gaou-piou/Jetdrops # Path to your Github repository
-	branch: master # Branch to update (master by default)P
+	repo: gaou-piou/Jetdrops
+	branch: master
 
-media_folder: "assets/img/uploads" # Folder where user uploaded files should go
