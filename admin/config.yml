@@ -1,4 +1,4 @@
 backend:
-	name:   https://github.com/
-	repo:   gaou-piou/Jetdrops
-	branch: master
+  name:   https://github.com/
+  repo:   gaou-piou/Jetdrops
+  branch: master
