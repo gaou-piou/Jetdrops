@@ -2,3 +2,5 @@ backend:
 	name:   github
 	repo:   gaou-piou/Jetdrops
 	branch: master
+
+publish_mode: editorial_workflow
