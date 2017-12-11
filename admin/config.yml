@@ -12,7 +12,6 @@ collections:
         label: "Site Settings"
         name: "general"
         file: "site/_data/settings.yml"
-        description: "General Site Settings"
         fields:
           -
-            {label: "Global site title", name: "site_title", widget: "string"}
+            {label: "Site title", name: "site_title", widget: "string"}
