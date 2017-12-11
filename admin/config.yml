@@ -11,8 +11,7 @@ collections:
       -
         label: "Site Settings"
         name: "general"
-        file: "site/_data/settings.json"
-        extension: "json"
+        file: "site/_data/settings.yml"
         description: "General Site Settings"
         fields:
           -
