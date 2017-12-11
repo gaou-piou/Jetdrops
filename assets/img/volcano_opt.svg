@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 465 218">
+  <defs>
+    <linearGradient id="a" x1="50.01%" x2="50.01%" y1="100%" y2=".05%">
+      <stop offset=".12%" stop-color="#0E1030"/>
+      <stop offset="16.91%" stop-color="#101236"/>
+      <stop offset="39.62%" stop-color="#171947"/>
+      <stop offset="65.71%" stop-color="#232464"/>
+      <stop offset="94.14%" stop-color="#32338B"/>
+      <stop offset="100%" stop-color="#363794"/>
+    </linearGradient>
+    <filter id="b" width="114.4%" height="116.2%" x="-7.2%" y="-8.1%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.72"/>
+    </filter>
+    <linearGradient id="c" x1="-.03%" x2="99.98%" y1="50.02%" y2="50.02%">
+      <stop offset=".12%" stop-color="#0E1030"/>
+      <stop offset="16.91%" stop-color="#101236"/>
+      <stop offset="39.62%" stop-color="#171947"/>
+      <stop offset="65.71%" stop-color="#232464"/>
+      <stop offset="94.14%" stop-color="#32338B"/>
+      <stop offset="100%" stop-color="#363794"/>
+    </linearGradient>
+    <filter id="d" width="110.9%" height="113.2%" x="-5.5%" y="-6.6%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.72"/>
+    </filter>
+    <linearGradient id="e" x1="81.64%" x2="23.44%" y1="113.79%" y2="-17.6%">
+      <stop offset=".12%" stop-color="#0E1030"/>
+      <stop offset="16.91%" stop-color="#101236"/>
+      <stop offset="39.62%" stop-color="#171947"/>
+      <stop offset="65.71%" stop-color="#232464"/>
+      <stop offset="94.14%" stop-color="#32338B"/>
+      <stop offset="100%" stop-color="#363794"/>
+    </linearGradient>
+    <filter id="f" width="108.4%" height="110.9%" x="-4.2%" y="-5.5%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.72"/>
+    </filter>
+    <linearGradient id="g" x1=".01%" y1="50.01%" y2="50.01%">
+      <stop offset="0%" stop-color="#292A73"/>
+      <stop offset="30.1%" stop-color="#2F3C81"/>
+      <stop offset="71.56%" stop-color="#36508F"/>
+      <stop offset="100%" stop-color="#385794"/>
+    </linearGradient>
+    <filter id="h" width="106.3%" height="103%" x="-3.1%" y="-1.5%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.72"/>
+    </filter>
+    <linearGradient id="i" x1="-38.38%" x2="131.81%" y1="67.94%" y2="40.68%">
+      <stop offset="17.55%" stop-color="#385794"/>
+      <stop offset="49.08%" stop-color="#374E94"/>
+      <stop offset="99.28%" stop-color="#363794"/>
+      <stop offset="100%" stop-color="#363794"/>
+    </linearGradient>
+    <filter id="j" width="109.5%" height="102.6%" x="-4.7%" y="-1.3%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.72"/>
+    </filter>
+    <linearGradient id="k" x1="-42.28%" x2="109.8%" y1="84.32%" y2="6.56%">
+      <stop offset="0%" stop-color="#363794"/>
+      <stop offset="38.16%" stop-color="#374C94"/>
+      <stop offset="54.26%" stop-color="#385794"/>
+      <stop offset="65.65%" stop-color="#425F96"/>
+      <stop offset="85.26%" stop-color="#5E739D"/>
+      <stop offset="99.75%" stop-color="#7785A3"/>
+    </linearGradient>
+    <filter id="l" width="110.1%" height="103%" x="-5.1%" y="-1.5%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.72"/>
+    </filter>
+    <linearGradient id="m" x1=".01%" x2="99.98%" y1="50%" y2="50%">
+      <stop offset="17.55%" stop-color="#385794"/>
+      <stop offset="49.08%" stop-color="#374E94"/>
+      <stop offset="99.28%" stop-color="#363794"/>
+      <stop offset="100%" stop-color="#363794"/>
+    </linearGradient>
+    <filter id="n" width="108%" height="102.6%" x="-4%" y="-1.3%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.72"/>
+    </filter>
+    <linearGradient id="o" x1=".01%" x2="99.99%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#292A73"/>
+      <stop offset="30.1%" stop-color="#2F3C81"/>
+      <stop offset="71.56%" stop-color="#36508F"/>
+      <stop offset="100%" stop-color="#385794"/>
+    </linearGradient>
+    <filter id="p" width="105.4%" height="102.6%" x="-2.7%" y="-1.3%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.72"/>
+    </filter>
+    <linearGradient id="q" x1="-.01%" y1="50.01%" y2="50.01%">
+      <stop offset="0%" stop-color="#292A73"/>
+      <stop offset="30.1%" stop-color="#2F3C81"/>
+      <stop offset="71.56%" stop-color="#36508F"/>
+      <stop offset="100%" stop-color="#385794"/>
+    </linearGradient>
+    <filter id="r" width="106.6%" height="104%" x="-3.3%" y="-2%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.72"/>
+    </filter>
+  </defs>
+  <g fill="none">
+    <path fill="url(#a)" d="M484 .4L597.5 101H484z" filter="url(#b)" transform="translate(-345 6)"/>
+    <path fill="url(#c)" d="M779.2.4L630 42.6l35.6 81.1z" filter="url(#d)" transform="translate(-345 6)"/>
+    <path fill="url(#e)" d="M484 .4l146 42.2 48.6 107.1-81.1-48.7z" filter="url(#f)" transform="translate(-345 6)"/>
+    <path fill="url(#g)" d="M224.5 506.4L484 .4l-81.1 535.2-113.5 6.5z" filter="url(#h)" transform="translate(-345 6)"/>
+    <path fill="url(#i)" d="M484 .4l10.8 73.9 80 545.7-171.9-84.4z" filter="url(#j)" transform="translate(-345 6)"/>
+    <path fill="url(#k)" d="M494.8 74.3L655.9 101l-81.1 519z" filter="url(#l)" transform="translate(-345 6)"/>
+    <path fill="url(#m)" d="M779.2.4L655.9 101l-81.1 519z" filter="url(#n)" transform="translate(-345 6)"/>
+    <path fill="url(#o)" d="M876.5 503.2L779.2.4 574.8 620z" filter="url(#p)" transform="translate(-345 6)"/>
+    <path fill="url(#q)" d="M433.1 101L188.8 441.6l-1.4 52.3 37.1 12.5z" filter="url(#r)" transform="translate(-345 6)"/>
+  </g>
+</svg>
