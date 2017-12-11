@@ -5,10 +5,15 @@ backend:
 media_folder: "images/uploads"
 collections:
   -
-    label: "Site Settings"
-    name: "general"
-    file: "site/_data/settings.yml"
-    description: "General Site Settings"
-    fields:
+    label: "Settings"
+    name: "settings"
+    files:
       -
-        {label: "Global title", name: "site_title", widget: "string"}
+        label: "Site Settings"
+        name: "general"
+        file: "site/_data/settings.json"
+        extension: "json"
+        description: "General Site Settings"
+        fields:
+          -
+            {label: "Global title", name: "site_title", widget: "string"}
