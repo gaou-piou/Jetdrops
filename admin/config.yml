@@ -1,18 +1,18 @@
 backend:
-  name      : github
-  repo      : gaou-piou/Jetdrops
-  branch    : master
+	name      : github
+	repo      : gaou-piou/Jetdrops
+	branch    : master
 media_folder: "images/uploads"
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "_posts/blog"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
-      - {label: "Body", name: "body", widget: "markdown"}
+	- name: "blog"
+		label: "Blog"
+		folder: "_posts/blog"
+		create: true
+		slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+		fields:
+			- {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+			- {label: "Title", name: "title", widget: "string"}
+			- {label: "Publish Date", name: "date", widget: "datetime"}
+			- {label: "Featured Image", name: "thumbnail", widget: "image"}
+			- {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
+			- {label: "Body", name: "body", widget: "markdown"}
