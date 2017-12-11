@@ -22,7 +22,7 @@ collections:
       - {label: "Contenido", name: "body", widget: "markdown"}
   - label: "Site Settings"
     name: "general"
-    file: "site/_data/settings.json"
+    file: "settings.json"
     extension: "json"
     description: "General Site Settings"
     fields:
