@@ -4,8 +4,10 @@ backend:
   branch    : master
 media_folder: "images/uploads"
 collections:
-  - label: "Site Settings"
-    name: "general"
-    file: "site/_data/settings.json"
-    extension: "json"
+  - label      : "Site Settings"
+    name       : "general"
+    file       : "site/_data/settings.json"
+    extension  : "json"
     description: "General Site Settings"
+    fields: 
+      - {label: "Global title", name: "site_title", widget: "string"}
