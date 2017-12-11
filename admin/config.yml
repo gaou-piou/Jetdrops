@@ -16,4 +16,4 @@ collections:
         description: "General Site Settings"
         fields:
           -
-            {label: "Global title", name: "site_title", widget: "string"}
+            {label: "Global site title", name: "site_title", widget: "string"}
