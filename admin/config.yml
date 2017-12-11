@@ -5,7 +5,7 @@ backend:
 media_folder: "images/uploads"
 collections:
   - label: "Site Settings"
-	name: "general"
-	file: "site/_data/settings.json"
-	extension: "json"
-	description: "General Site Settings"
+    name: "general"
+    file: "site/_data/settings.json"
+    extension: "json"
+    description: "General Site Settings"
