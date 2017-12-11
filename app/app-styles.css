@@ -192,6 +192,7 @@ wbr::after {
   left: 0;
   width: 100%;
   height: 100%;
+  overflow: hidden;
   background-image: radial-gradient(circle at 49% 52%, #2a2c77, #0e1030);
 }
 #App .top_left_vector {
@@ -205,6 +206,8 @@ wbr::after {
   bottom: 0;
   right: 0;
   height: 212px;
+  -webkit-transform: translateX(20%);
+          transform: translateX(20%);
 }
 #App .bottom_left_vector {
   position: absolute;
