@@ -195,14 +195,19 @@ wbr::after {
   overflow: hidden;
   background-image: radial-gradient(circle at 49% 52%, #2a2c77, #0e1030);
 }
-#App .top_left_vector {
+#App .vectr_img {
   position: absolute;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+#App .top_left_vector {
   top: 0;
   left: 0;
   width: 330px;
 }
 #App .bottom_right_vector {
-  position: absolute;
   bottom: 0;
   right: 0;
   height: 212px;
@@ -210,18 +215,9 @@ wbr::after {
           transform: translateX(20%);
 }
 #App .bottom_left_vector {
-  position: absolute;
   bottom: 133px;
   left: 238px;
   width: 92px;
-}
-#App .center_vector {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 227px;
-  -webkit-transform: translate3d(-50%, -20%, 0);
-          transform: translate3d(-50%, -20%, 0);
 }
 #Social {
   position: absolute;
@@ -238,6 +234,19 @@ wbr::after {
 }
 #Social a:first-child {
   margin-left: 0;
+}
+#ReactivePlanet {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 227px;
+  margin-left: -114px;
+  margin-top: -66px;
+}
+#ReactivePlanet svg {
+  position: relative;
+  overflow: visible;
+  display: block;
 }
 
 /*# sourceMappingURL=app-styles.css.map*/
