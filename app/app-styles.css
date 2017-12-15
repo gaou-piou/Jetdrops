@@ -1,4 +1,4 @@
-/*=============================================>>>>>
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);/*=============================================>>>>>
 = STYLUS STYLES =
 ===============================================>>>>>*/
 /* normalize.styl.lite v0.0.7 | MIT License | github.com/seleckis/normalize.styl.lite */
@@ -186,6 +186,20 @@ textarea {
 wbr::after {
   content: "\200B";
 }
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html,
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 20px;
+}
+body {
+  font-size: 100%;
+}
 #App {
   position: absolute;
   top: 0;
@@ -278,13 +292,36 @@ wbr::after {
   background-color: #a09fb0;
   border-radius: 50%;
   margin: 11px;
-  display: inline-block;
+  display: block;
+  float: left;
+}
+#Spaceship .dots_grid .dot.hide {
+  opacity: 0;
 }
 #Spaceship #rocket {
   position: absolute;
   width: 44px;
   height: auto;
   top: 0;
+}
+#Spaceship .menu_item {
+  position: absolute;
+  color: #fff;
+  white-space: nowrap;
+  -webkit-transform: translate3d(-21px, -100%, 0);
+          transform: translate3d(-21px, -100%, 0);
+  font-weight: bold;
+  line-height: 31px;
+  height: 31px;
+  cursor: pointer;
+}
+#Spaceship .menu_item .expand {
+  display: inline-block;
+}
+#Spaceship .menu_item .expand span {
+  display: inline-block;
+  position: relative;
+  opacity: 0;
 }
 
 /*# sourceMappingURL=app-styles.css.map*/
