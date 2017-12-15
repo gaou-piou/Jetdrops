@@ -207,6 +207,11 @@ wbr::after {
   left: 0;
   width: 330px;
 }
+#App .top_right_vector {
+  top: 21%;
+  right: 19.8%;
+  width: 137px;
+}
 #App .bottom_right_vector {
   bottom: 0;
   right: 0;
@@ -215,14 +220,14 @@ wbr::after {
           transform: translateX(20%);
 }
 #App .bottom_left_vector {
-  bottom: 133px;
-  left: 238px;
+  bottom: 18.47%;
+  left: 18.5%;
   width: 92px;
 }
 #Social {
   position: absolute;
-  top: 40px;
-  right: 100px;
+  top: 5.8%;
+  right: 8.2%;
   color: #385794;
 }
 #Social a {
@@ -247,6 +252,39 @@ wbr::after {
   position: relative;
   overflow: visible;
   display: block;
+}
+#ReactivePlanet .logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 110px;
+  -webkit-transform: translate3d(-50%, 15%, 0);
+          transform: translate3d(-50%, 15%, 0);
+}
+#Spaceship {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+#Spaceship .dots_grid {
+  position: relative;
+  width: 372px;
+}
+#Spaceship .dots_grid .dot {
+  width: 9px;
+  height: 9px;
+  background-color: #a09fb0;
+  border-radius: 50%;
+  margin: 11px;
+  display: inline-block;
+}
+#Spaceship #rocket {
+  position: absolute;
+  width: 44px;
+  height: auto;
+  top: 0;
 }
 
 /*# sourceMappingURL=app-styles.css.map*/
