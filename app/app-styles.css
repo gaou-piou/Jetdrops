@@ -314,11 +314,15 @@ body {
   line-height: 31px;
   height: 31px;
   cursor: pointer;
+  -webkit-transition: color 0.15s;
+  transition: color 0.15s;
 }
 #Spaceship .menu_item .expand {
   display: inline-block;
 }
 #Spaceship .menu_item .expand span {
+  height: 31px;
+  line-height: 31px;
   display: inline-block;
   position: relative;
   opacity: 0;
