@@ -287,17 +287,22 @@ body {
   width: 372px;
 }
 #Spaceship .dots_grid .dot {
-  width: 9px;
-  height: 9px;
-  background-color: #a09fb0;
-  border-radius: 50%;
-  margin: 11px;
+  width: 31px;
+  height: 31px;
+  padding: 11px;
   display: block;
   float: left;
 }
 #Spaceship .dots_grid .dot.hide {
   opacity: 0;
   pointer-events: none;
+}
+#Spaceship .dots_grid .dot span {
+  background-color: #a09fb0;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 #Spaceship #rocket {
   position: absolute;
