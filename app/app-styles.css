@@ -297,6 +297,7 @@ body {
 }
 #Spaceship .dots_grid .dot.hide {
   opacity: 0;
+  pointer-events: none;
 }
 #Spaceship #rocket {
   position: absolute;
