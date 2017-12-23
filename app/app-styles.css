@@ -292,6 +292,7 @@ body {
   padding: 11px;
   display: block;
   float: left;
+  cursor: pointer;
 }
 #Spaceship .dots_grid .dot.hide {
   opacity: 0;
