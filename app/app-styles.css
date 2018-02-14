@@ -186,6 +186,15 @@ textarea {
 wbr::after {
   content: "\200B";
 }
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
 *,
 *:before,
 *:after {
@@ -225,18 +234,48 @@ body {
   top: 21%;
   right: 19.8%;
   width: 137px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-transition: all 0.3s 0.3s ease-in-out;
+  transition: all 0.3s 0.3s ease-in-out;
+}
+#App .top_right_vector[data-small="true"] {
+  -webkit-transform: scale(0.4);
+          transform: scale(0.4);
 }
 #App .bottom_right_vector {
   bottom: 0;
   right: 0;
-  height: 212px;
-  -webkit-transform: translateX(20%);
-          transform: translateX(20%);
+  height: auto;
+  width: 80%;
+  -webkit-transform: translate3d(40%, 50%, 0);
+          transform: translate3d(40%, 50%, 0);
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+  -webkit-transition: all 0.3s 0.4s ease-in-out;
+  transition: all 0.3s 0.4s ease-in-out;
+}
+#App .bottom_right_vector[data-unblur="true"] {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+}
+#App .bottom_right_vector .small_planets {
+  opacity: 0;
 }
 #App .bottom_left_vector {
   bottom: 18.47%;
   left: 18.5%;
   width: 92px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.3s 0.15s ease-in-out;
+  transition: all 0.3s 0.15s ease-in-out;
+}
+#App .bottom_left_vector[data-big="true"] {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 #Social {
   position: absolute;
@@ -266,14 +305,37 @@ body {
   position: relative;
   overflow: visible;
   display: block;
+  -webkit-transition: all 0.3s 0.2s ease-in-out;
+  transition: all 0.3s 0.2s ease-in-out;
+  -webkit-transform-origin: center 10%;
+          transform-origin: center 10%;
+}
+#ReactivePlanet svg[data-small="true"] {
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
 }
 #ReactivePlanet .logo {
   position: absolute;
   top: 0;
   left: 50%;
-  width: 110px;
-  -webkit-transform: translate3d(-50%, 15%, 0);
-          transform: translate3d(-50%, 15%, 0);
+  width: 120px;
+  height: auto;
+  -webkit-transform: translate3d(-50%, -5%, 0);
+          transform: translate3d(-50%, -5%, 0);
+}
+#ReactivePlanet .logo #logobubble {
+  opacity: 0;
+  -webkit-transform: scale(0.3);
+          transform: scale(0.3);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  -webkit-transition: all 0.3s 0.05s ease-in-out;
+  transition: all 0.3s 0.05s ease-in-out;
+}
+#ReactivePlanet .logo #logobubble.appear {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 #Spaceship {
   position: absolute;
@@ -285,6 +347,16 @@ body {
 #Spaceship .dots_grid {
   position: relative;
   width: 372px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#Spaceship .dots_grid[data-disappear="true"] {
+  opacity: 0;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
+  pointer-events: none;
 }
 #Spaceship .dots_grid .dot {
   width: 31px;
@@ -305,11 +377,8 @@ body {
   height: 100%;
   display: block;
 }
-#Spaceship #rocket {
-  position: absolute;
-  width: 44px;
-  height: auto;
-  top: 0;
+#Spaceship #Rocket[data-disappear="true"] {
+  opacity: 0;
 }
 #Spaceship .menu_item {
   position: absolute;
@@ -323,6 +392,10 @@ body {
   cursor: pointer;
   -webkit-transition: color 0.15s;
   transition: color 0.15s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 #Spaceship .menu_item .expand {
   display: inline-block;
