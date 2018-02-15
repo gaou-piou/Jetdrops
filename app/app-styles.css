@@ -240,10 +240,15 @@ body {
           transform-origin: center;
   -webkit-transition: all 0.6s 0.3s ease-in-out;
   transition: all 0.6s 0.3s ease-in-out;
+  z-index: 2;
 }
-#App .top_right_vector[data-small="true"] {
+#App .top_right_vector[data-page="services"] {
   -webkit-transform: scale(0.4);
           transform: scale(0.4);
+}
+#App .top_right_vector[data-page="contact"] {
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
 }
 #App .bottom_right_vector {
   bottom: 0;
@@ -257,7 +262,8 @@ body {
   -webkit-transition: all 0.6s 0.4s ease-in-out;
   transition: all 0.6s 0.4s ease-in-out;
 }
-#App .bottom_right_vector[data-unblur="true"] {
+#App .bottom_right_vector[data-page="services"],
+#App .bottom_right_vector[data-page="contact"] {
   -webkit-filter: blur(0px);
           filter: blur(0px);
 }
@@ -268,14 +274,19 @@ body {
   bottom: 18.47%;
   left: 18.5%;
   width: 92px;
+  z-index: 2;
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: all 0.6s 0.15s ease-in-out;
   transition: all 0.6s 0.15s ease-in-out;
 }
-#App .bottom_left_vector[data-big="true"] {
+#App .bottom_left_vector[data-page="services"] {
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
+}
+#App .bottom_left_vector[data-page="contact"] {
+  -webkit-transform: scale(1.8);
+          transform: scale(1.8);
 }
 #Social {
   position: absolute;
@@ -310,7 +321,8 @@ body {
   -webkit-transform-origin: center 10%;
           transform-origin: center 10%;
 }
-#ReactivePlanet svg[data-small="true"] {
+#ReactivePlanet svg[data-page="services"],
+#ReactivePlanet svg[data-page="contact"] {
   -webkit-transform: scale(0.6);
           transform: scale(0.6);
 }
@@ -351,7 +363,8 @@ body {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-#Spaceship .dots_grid[data-disappear="true"] {
+#Spaceship .dots_grid[data-page="services"],
+#Spaceship .dots_grid[data-page="contact"] {
   opacity: 0;
   -webkit-transform-origin: center center;
           transform-origin: center center;
@@ -378,7 +391,8 @@ body {
   height: 100%;
   display: block;
 }
-#Spaceship #Rocket[data-disappear="true"] {
+#Spaceship #Rocket[data-page="services"],
+#Spaceship #Rocket[data-page="contact"] {
   opacity: 0;
 }
 #Spaceship .menu_item {
