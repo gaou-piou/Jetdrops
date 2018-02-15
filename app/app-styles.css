@@ -203,8 +203,18 @@ wbr::after {
 }
 html,
 body {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Fifita', sans-serif;
+  font-weight: 400;
   font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-feature-settings: "liga", "dlig";
+  -ms-font-feature-settings: "liga", "dlig";
+  -o-font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga", "dlig";
+  text-rendering: optimizeLegibility;
 }
 body {
   font-size: 100%;
