@@ -302,17 +302,21 @@ body {
   position: absolute;
   top: 5.8%;
   right: 8.2%;
-  color: #385794;
 }
 #Social a {
   font-size: 22px;
   margin: 0 10px;
+  color: #385794;
+  text-decoration: none;
 }
 #Social a:last-child {
   margin-right: 0;
 }
 #Social a:first-child {
   margin-left: 0;
+}
+#Social a i {
+  display: inline-block;
 }
 #ReactivePlanet {
   position: absolute;
