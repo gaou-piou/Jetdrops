@@ -195,6 +195,12 @@ wbr::after {
   display: table;
   clear: both;
 }
+.space {
+  font-family: 'Space Mono', monospace;
+}
+.bold {
+  font-weight: 700;
+}
 *,
 *:before,
 *:after {
@@ -349,6 +355,7 @@ body {
   -webkit-transform: translate3d(-50%, -5%, 0);
           transform: translate3d(-50%, -5%, 0);
   cursor: pointer;
+  z-index: 4;
 }
 #ReactivePlanet .logo #logobubble {
   opacity: 0;
@@ -370,6 +377,7 @@ body {
   left: 50%;
   -webkit-transform: translate3d(-50%, 0, 0);
           transform: translate3d(-50%, 0, 0);
+  z-index: 3;
 }
 #Spaceship .dots_grid {
   position: relative;
