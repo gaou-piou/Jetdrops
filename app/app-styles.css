@@ -229,8 +229,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   overflow: hidden;
   background-image: radial-gradient(circle at 49% 52%, #2a2c77, #0e1030);
 }
@@ -304,6 +304,22 @@ body {
   -webkit-transform: scale(1.8);
           transform: scale(1.8);
 }
+#App .bottom_left_vector path.ring1 {
+  -webkit-transform-origin: 55% 90%;
+          transform-origin: 55% 90%;
+}
+#App .bottom_left_vector path.ring3 {
+  -webkit-transform-origin: 50% 15%;
+          transform-origin: 50% 15%;
+}
+#App .bottom_left_vector path.ring4 {
+  -webkit-transform-origin: 50% 40%;
+          transform-origin: 50% 40%;
+}
+#App .bottom_left_vector path.ring5 {
+  -webkit-transform-origin: 78% 85%;
+          transform-origin: 78% 85%;
+}
 #Social {
   position: absolute;
   top: 5.8%;
@@ -314,6 +330,11 @@ body {
   margin: 0 10px;
   color: #385794;
   text-decoration: none;
+  -webkit-transition: color 0.15s ease-out;
+  transition: color 0.15s ease-out;
+}
+#Social a:hover {
+  color: #fff;
 }
 #Social a:last-child {
   margin-right: 0;
