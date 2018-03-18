@@ -100,8 +100,7 @@ figure {
   margin: 1em 40px;
 }
 hr {
-  -webkit-box-sizing: content-box /* 1 */;
-          box-sizing: content-box /* 1 */;
+  box-sizing: content-box /* 1 */;
   height: 0 /* 1 */;
   overflow: visible /* 2 */;
 }
@@ -146,8 +145,7 @@ fieldset {
 margin 0 2px,
 padding 0.35em 0.625em 0.75em,
 legend {
-  -webkit-box-sizing: border-box /* 1 */;
-          box-sizing: border-box /* 1 */;
+  box-sizing: border-box /* 1 */;
   color: inherit /* 2 */;
   display: table /* 1 */;
   max-width: 100% /* 1 */;
@@ -159,8 +157,7 @@ textarea {
 }
 [type="checkbox"],
 [type="radio"] {
-  -webkit-box-sizing: border-box /* 1 */;
-          box-sizing: border-box /* 1 */;
+  box-sizing: border-box /* 1 */;
   padding: 0 /* 2 */;
 }
 ::-webkit-inner-spin-button,
@@ -196,7 +193,7 @@ wbr::after {
   clear: both;
 }
 .space {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Ubuntu', sans-serif;
 }
 .bold {
   font-weight: 700;
@@ -204,12 +201,11 @@ wbr::after {
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 html,
 body {
-  font-family: 'Fifita', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
@@ -254,7 +250,6 @@ body {
           transform: scale(1);
   -webkit-transform-origin: center;
           transform-origin: center;
-  -webkit-transition: all 0.6s 0.3s ease-in-out;
   transition: all 0.6s 0.3s ease-in-out;
   z-index: 2;
 }
@@ -265,6 +260,7 @@ body {
 #App .top_right_vector[data-page="contact"] {
   -webkit-transform: scale(0.6);
           transform: scale(0.6);
+  z-index: 4;
 }
 #App .bottom_right_vector {
   bottom: 0;
@@ -275,7 +271,6 @@ body {
           transform: translate3d(40%, 50%, 0);
   -webkit-filter: blur(2px);
           filter: blur(2px);
-  -webkit-transition: all 0.6s 0.4s ease-in-out;
   transition: all 0.6s 0.4s ease-in-out;
 }
 #App .bottom_right_vector[data-page="services"],
@@ -293,7 +288,6 @@ body {
   z-index: 2;
   -webkit-transform: scale(1);
           transform: scale(1);
-  -webkit-transition: all 0.6s 0.15s ease-in-out;
   transition: all 0.6s 0.15s ease-in-out;
 }
 #App .bottom_left_vector[data-page="services"] {
@@ -303,6 +297,7 @@ body {
 #App .bottom_left_vector[data-page="contact"] {
   -webkit-transform: scale(1.8);
           transform: scale(1.8);
+  z-index: 4;
 }
 #App .bottom_left_vector path.ring1 {
   -webkit-transform-origin: 55% 90%;
@@ -330,7 +325,6 @@ body {
   margin: 0 10px;
   color: #385794;
   text-decoration: none;
-  -webkit-transition: color 0.15s ease-out;
   transition: color 0.15s ease-out;
 }
 #Social a:hover {
@@ -357,7 +351,6 @@ body {
   position: relative;
   overflow: visible;
   display: block;
-  -webkit-transition: all 0.6s 0.2s ease-in-out;
   transition: all 0.6s 0.2s ease-in-out;
   -webkit-transform-origin: center 10%;
           transform-origin: center 10%;
@@ -384,7 +377,6 @@ body {
           transform: scale(0.3);
   -webkit-transform-origin: center center;
           transform-origin: center center;
-  -webkit-transition: all 0.3s 0.05s ease-in-out;
   transition: all 0.3s 0.05s ease-in-out;
 }
 #ReactivePlanet .logo #logobubble.appear {
@@ -398,12 +390,14 @@ body {
   left: 50%;
   -webkit-transform: translate3d(-50%, 0, 0);
           transform: translate3d(-50%, 0, 0);
+  z-index: 1;
+}
+#Spaceship[data-page="home"] {
   z-index: 3;
 }
 #Spaceship .dots_grid {
   position: relative;
   width: 372px;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 #Spaceship .dots_grid[data-page="services"],
@@ -448,7 +442,6 @@ body {
   line-height: 31px;
   height: 31px;
   cursor: pointer;
-  -webkit-transition: color 0.15s;
   transition: color 0.15s;
   -webkit-user-select: none;
      -moz-user-select: none;
