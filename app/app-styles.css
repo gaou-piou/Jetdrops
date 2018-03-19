@@ -217,6 +217,19 @@ body {
   -o-font-feature-settings: "liga", "dlig";
   font-feature-settings: "liga", "dlig";
   text-rendering: optimizeLegibility;
+  overflow: hidden;
+}
+@media only screen and (max-width: 640px) {
+  html,
+  body {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  html,
+  body {
+    font-size: 16px;
+  }
 }
 body {
   font-size: 100%;
@@ -391,6 +404,12 @@ body {
   -webkit-transform: translate3d(-50%, 0, 0);
           transform: translate3d(-50%, 0, 0);
   z-index: 1;
+}
+@media only screen and (max-width: 520px) {
+  #Spaceship {
+    -webkit-transform: translate3d(-50%, 0, 0) scale(0.9);
+            transform: translate3d(-50%, 0, 0) scale(0.9);
+  }
 }
 #Spaceship[data-page="home"] {
   z-index: 3;
